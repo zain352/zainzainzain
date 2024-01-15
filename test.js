@@ -1,6 +1,6 @@
 const http = require('http');
 
-const endpointUrl = 'http://webhook.site/0c295e94-783e-46d8-8ea3-70e86d0d620c';
+const endpointUrl = '';
 
 const req = http.request(endpointUrl, (res) => {
   let data = '';
